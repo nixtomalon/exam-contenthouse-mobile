@@ -12,20 +12,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.0.1
   flutter_localizations:
     sdk: flutter
-
-  # Flutter Favorites
+  intl:
   provider: ^6.0.1
-  flutter_bloc: ^8.0.1
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-
-  flutter_lints: ^2.0.0
   change_app_package_name: ^1.1.0
   flutter_launcher_icons: "^0.13.0"
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
